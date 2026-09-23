@@ -4,7 +4,7 @@
 **Đơn vị đề xuất:** Khoa Vật lý – Vật lý Kỹ thuật
 **Ngày lập:** 23/09/2026
 **Người lập:** *(chữ ký/cán bộ phụ trách phòng thí nghiệm)*
-**Phiên bản tài liệu:** v1.0 (Markdown – bản thảo trình duyệt)
+**Phiên bản tài liệu:** v1.1 – phát hành song song Markdown (.md) và Word (.docx)
 
 ---
 
@@ -24,7 +24,7 @@
 2. **Ưu tiên môn có tiết TH/TN > 0:** các môn lý thuyết thuần (TH = 0) chỉ được liệt kê là *tiếp nhận gián tiếp* (minh họa đo kiểm, phân tích số liệu), không dùng làm căn cứ chính.
 3. **Mức chi tiết "ứng dụng cụ thể":** do các trang đề cương chi tiết trong `DS mon hoc CNBD.pdf` (trang 3–30 và 33–90) **trống**, báo cáo này **không trích dẫn số chương/số bài thực hành** mà trình bày theo **giai đoạn đào tạo**: (i) Thực hành cơ bản trong môn học; (ii) Đồ án môn học / thực tập; (iii) Khóa luận tốt nghiệp (đại học) / Luận văn – đồ án tốt nghiệp (cao học). Khi có đề cương chi tiết được ban hành, cán bộ phụ trách chỉ cần điền bổ sung tên bài/chương vào khung đã sẵn.
 4. **Cột "Trình bày lý do":** bảng gốc trống cả 13 dòng; báo cáo này soạn thảo nội dung điền vào (Mục IV), mỗi lý do nêu rõ môn học tiếp nhận + mục đích sử dụng, đủ ngắn để điền ngược vào bảng danh mục.
-5. **Phụ kiện – vật tư đi kèm:** liệt kê dạng gạch đầu dòng trong giải trình từng thiết bị (Mục III), không tách thành phụ lục mua sắm riêng theo chỉ đạo.
+5. **Phụ kiện – vật tư đi kèm:** ghi nhận trong giải trình từng thiết bị (Mục III) dưới dạng phụ kiện kèm theo thiết bị và trang bị sẵn có của PTN; theo chỉ đạo, **không đề xuất mua bổ sung phụ kiện ngoài 13 danh mục** và không tách phụ lục riêng.
 
 ### 1.3. Ghi nhận chất lượng dữ liệu đầu vào (kiến nghị hiệu đính)
 
@@ -73,11 +73,7 @@
   - *Đồ án môn học:* đo kiểm thông số pin mặt trời (Isc, Voc, FF, hiệu suất) trong đồ án SEM10135/SEM10120; đo đáp ứng cảm biến trong đồ án SEM10118.
   - *Khóa luận/Luận văn:* đặc tuyến I–V/C–V (gián tiếp qua quét điện áp) của linh kiện MOS, diode Schottky, OFET chế tạo trong luận văn.
 - **Mục đích / tác dụng kỹ thuật:** vừa cấp nguồn chính xác (±10 V, 5 dải dòng 10 nA–200 mA) vừa đo đồng thời dòng/áp trên cùng kênh (SMU), kèm 2 kênh vôn kế Vsense đo 4 dây khử điện trở dây dẫn; cho phép quét (sweep) tự động để dựng đặc tuyến, đo dòng rò, điện áp ngưỡng, điện trở nối tiếp, điện trở vi phân của linh kiện – năng lực mà nguồn lab thông thường + đồng hồ rời không đáp ứng được.
-- **Yêu cầu phụ kiện & vật tư đi kèm:**
-  - PC cấu hình phù hợp + cáp USB/LAN; phần mềm điều khiển Ossila trên PC (kèm thiết bị – cần xác nhận licence khi nghiệm thu).
-  - Cáp đo đầu ra SMU → đầu dò/probe tip hoặc đế gá mẫu (probe fixture); khuyến nghị probe station hoặc bộ gá đo wafer mảnh nếu đo trực tiếp wafer.
-  - Thảm/băng tay chống tĩnh điện (ESD) cho trạm đo linh kiện MOS.
-  - Điện trở chuẩn/shunt chuẩn để kiểm tra hiệu chuẩn định kỳ.
+- **Phụ kiện & vật tư đi kèm:** kèm theo thiết bị: phần mềm điều khiển Ossila trên PC, cáp USB/LAN; sử dụng chung PC trạm đo, thảm chống tĩnh điện, đầu dò/đế gá mẫu hiện có của PTN. Không phát sinh mua bổ sung.
 - **Trình bày lý do (điền bảng):** Là thiết bị đo đặc tuyến I–V cốt lõi cho các môn Thiết bị đo lường, Vật lý linh kiện bán dẫn, Tính chất đặc trưng của bán dẫn (ĐH) và Kỹ thuật phân tích trong CNBD, chế tạo linh kiện MOS (CH); thiếu thiết bị này sinh viên không thực hiện được nhóm bài thực hành đặc tuyến linh kiện và luận văn không tự đo kiểm được linh kiện chế tạo.
 
 ---
@@ -92,11 +88,7 @@
   - *Đồ án môn học:* lập bản đồ đồng đều điện trở tấm trên wafer ≤ 6 inch trong đồ án kiểm soát quy trình (SEM10105).
   - *Khóa luận/Luận văn:* đánh giá điện trở lớp tiếp xúc, lớp TCO, lớp pha tạp sau ủ trong các đề tài màng mỏng.
 - **Mục đích / tác dụng kỹ thuật:** đo điện trở tấm 100 mΩ/sq – 10 MΩ/sq bằng phương pháp 4 mũi dò, **loại bỏ sai số điện trở tiếp xúc và điện trở dây** – chỉ tiêu bắt buộc khi đánh giá chất lượng lớp pha tạp/màng lắng đọng; đầu dò lò xo lực không đổi 60 g bảo vệ màng mỏng/polymer dễ tổn thương do sinh viên thao tác.
-- **Yêu cầu phụ kiện & vật tư đi kèm:**
-  - **Nguồn 24 V DC** (yêu cầu nguồn ghi trong cấu hình – cần xác nhận kèm theo máy hoặc mua bổ sung).
-  - Đầu dò dự phòng (probe head/tip thay thế) – vật tư hao mòn do sinh viên luyện thao tác.
-  - Mẫu chuẩn điện trở tấm để hiệu chuẩn/kiểm tra định kỳ.
-  - PC + cáp USB + phần mềm đi kèm; bàn đặt mẫu chống rung.
+- **Phụ kiện & vật tư đi kèm:** kèm theo thiết bị: bàn mẫu tới 6 inch, đầu dò lò xo lực không đổi 60 g, phần mềm và cáp kết nối; **nguồn 24 V DC đã sẵn có tại PTN** (xác nhận 23/9/2026). Không phát sinh mua bổ sung.
 - **Trình bày lý do (điền bảng):** Phục vụ đo điện trở tấm – chỉ tiêu kiểm soát quy trình bắt buộc của các môn chế tạo/phân tích vật liệu bán dẫn (ĐH: SEM10003, SEM10005, SEM10105; CH: MVL207, MVL216, MVL218, MVL219); phương pháp 4 điểm loại bỏ điện trở tiếp xúc mà đồng hồ VOM/SMU đo 2 dây không thực hiện được.
 
 ---
@@ -110,10 +102,7 @@
   - *Thực hành cơ bản:* bài thực hành giao tiếp máy đo – máy tính (SCPI/IEEE-488), lập trình quét đo tự động trong môn Thiết bị đo lường.
   - *Đồ án môn học / Khóa luận–Luận văn:* xây dựng hệ đo tự động ghép nhiều thiết bị (mục 4: 6221 + 2182A; các máy đo GPIB sẵn có của PTN), ghi log dữ liệu dài kỳ (ủ, lão hóa, quét nhiệt độ).
 - **Mục đích / tác dụng kỹ thuật:** nối trực tiếp cổng USB máy tính tới chuẩn IEEE-488 (GPIB), điều khiển tối đa 14 thiết bị/dải, tốc độ >1,15 MB/s, plug-and-play không cần card GPIB nội bộ; là "cầu nối" bắt buộc để khai thác các thiết bị chuẩn công nghiệp (Keithley 6221/2182A có GPIB) trong dạy thực hành đo lường tự động.
-- **Yêu cầu phụ kiện & vật tư đi kèm:**
-  - Phần mềm Keysight IO Libraries Suite (miễn phí từ hãng) + môi trường lập trình Python/PyVISA hoặc LabVIEW trên PC phòng máy.
-  - Cáp GPIB (IEEE-488) nối chuỗi giữa các thiết bị (số lượng theo số trạm đo).
-  - PC có cổng USB; khuyến nghị USB hub có nguồn cho trạm nhiều thiết bị.
+- **Phụ kiện & vật tư đi kèm:** phần mềm Keysight IO Libraries Suite tải miễn phí từ hãng; cáp GPIB nối chuỗi và PC cổng USB dùng chung trang bị hiện có của PTN. Không phát sinh mua bổ sung.
 - **Trình bày lý do (điền bảng):** Đồng bộ kèm mục 4 và các máy đo chuẩn GPIB hiện có để xây dựng trạm đo tự động phục môn Thiết bị đo lường (ĐH) và luận văn (CH); số lượng 05 bộ đủ trang bị đồng thời cho 05 trạm thực hành đo lường.
 
 ---
@@ -128,11 +117,7 @@
   - *Đồ án môn học:* đo đặc tuyến cảm biến, vật liệu nhiệt điện trong đồ án SEM10118/SEM10120.
   - *Khóa luận/Luận văn:* phép đo **chế độ Delta** (đảo chiều dòng, khử sức điện động nhiệt) và đo xung cho mẫu điện trở thấp/tự gia nhiệt; đo điện trở cách điện, dòng rò cỡ nA.
 - **Mục đích / tác dụng kỹ thuật:** cấp dòng chính xác từ ±2 nA (DC)/2 pA (AC) đến 100 mA và đo áp nano-vôn bằng 2182A đi kèm; chế độ Delta triệt tiêu EMF nhiệt – sai số chi phối khi đo mẫu trở thấp; dạng sóng tùy ý + xung lập trình được phục vụ khảo sát đáp ứng tần số của cảm biến/vật liệu.
-- **Yêu cầu phụ kiện & vật tư đi kèm:**
-  - **Cáp triaxial** đầu nối 3 khe (chính là Mục 5) cho cả ngõ ra 6221 và ngõ vào 2182A.
-  - Bộ chuyển GPIB–USB (Mục 3) hoặc cáp KUSB-488B để điều khiển đồng bộ 6221 + 2182A từ PC (chế độ Delta cần đồng bộ trigger – có Trigger Link).
-  - Dây đồng low-thermal-EMF, hộp chắn nhiễu/faraday cho phép đo nV–nA; bàn chống rung.
-  - Phần mềm điều khiển trên PC (kèm máy).
+- **Phụ kiện & vật tư đi kèm:** kèm theo bộ: Nanovoltmeter 2182A và cáp Trigger Link đồng bộ; cáp triaxial (Mục 5), bộ chuyển GPIB–USB (Mục 3), hộp chắn nhiễu nằm trong cùng danh mục/hiện có của PTN. Không phát sinh mua bổ sung.
 - **Trình bày lý do (điền bảng):** Cặp nguồn dòng 6221 + nanovoltmeter 2182A cho phép đo điện trở suất, điện trở tiếp xúc và đặc tuyến vận chuyển ở mức tín hiệu pA–nV (chế độ Delta) phục vụ Vật lý chất rắn và bán dẫn, Tính chất đặc trưng của bán dẫn, Thiết bị đo lường (ĐH) và luận văn cao học; không thiết bị sẵn có nào của PTN đạt độ phân giải này.
 
 ---
@@ -142,7 +127,7 @@
 - **Môn học tiếp nhận:** dùng chung cho mọi môn có sử dụng Mục 1 và Mục 4 (SEM10007, SEM10001, SEM10005, MVL204, luận văn…).
 - **Ứng dụng cụ thể (giai đoạn):** *Thực hành cơ bản* – bài thực hành kỹ thuật đo dòng nhỏ: sinh viên nhận biết ảnh hưởng của nhiễu/rò điện khi đổi cấu hình cáp (2 dây → coaxial → triaxial có guard).
 - **Mục đích / tác dụng kỹ thuật:** cấu trúc trục ba có lớp guard triệt tiêu dòng rò và nhiễu điện dung, bảo đảm phép đo 10 nA–200 mA và nV của Mục 1/Mục 4 đạt đúng độ phân giải công bố; điện trở cách điện 10¹⁵ Ω; đầu kẹp cá sấu thuận tiện gá mẫu trong bài thực hành.
-- **Yêu cầu phụ kiện & vật tư đi kèm:** đầu kẹp cá sấu dự phòng, adaptor triaxial→BNC cho máy hiện sóng/đồng hồ khác, hộp bảo quản và dán nhãn cáp; không cần phần mềm.
+- **Phụ kiện & vật tư đi kèm:** đầu kẹp cá sấu kèm theo cáp; không cần phần mềm hay phụ kiện mua thêm.
 - **Trình bày lý do (điền bảng):** Phụ kiện bắt buộc đồng bộ theo Mục 1 và Mục 4 để bảo đảm chất lượng đo dòng nhỏ; trang bị 05 cái cho 05 trạm đo, có dự phòng hao mòn do sinh viên thao tác.
 
 ---
@@ -157,10 +142,7 @@
   - *Đồ án môn học:* khảo sát chế độ ủ ảnh hưởng tới độ bám dính/độ dày màng resist trong đồ án vi chế tạo.
   - *Khóa luận/Luận văn:* sấy chân không mẫu nhạy oxy hóa, đóng rắn màng polymer/keo dẫn trong đề tài đóng gói, cảm biến.
 - **Mục đích / tác dụng kỹ thuật:** sấy/ủ ở chân không (10–750 mmHg) giúp bốc hơi nước/dung môi ở nhiệt độ thấp hơn, tránh oxy hóa bề mặt mẫu; độ ổn định ±0,5 °C và đồng đều ±2–3 °C bảo đảm tính lặp lại của công đoạn – yêu cầu bắt buộc của quy trình sạch.
-- **Yêu cầu phụ kiện & vật tư đi kèm:**
-  - **Bơm chân không (rotary vane) + ống dẫn + van** – cấu hình gốc chỉ liệt kê tủ, chưa có bơm; bắt buộc bổ sung để vận hành.
-  - Ống xả/kết nối tủ hút cho hơi dung môi; găng tay chịu nhiệt; khay nhôm dự phòng (máy kèm 2 khay).
-  - Nguồn điện riêng có aptomat; kiểm định nhiệt độ định kỳ bằng đầu dò chuẩn.
+- **Phụ kiện & vật tư đi kèm:** kèm theo máy: 2 khay nhôm, bộ điều khiển cảm ứng TFT LCD 4"; **bơm chân không đã sẵn có tại PTN** (xác nhận 23/9/2026). Không phát sinh mua bổ sung.
 - **Trình bày lý do (điền bảng):** Hoàn thiện chuỗi công đoạn làm sạch – sấy mẫu của môn Các quy trình sạch trong CNBD, Công nghệ chế tạo bán dẫn cơ bản, Kỹ thuật vi chế tạo (ĐH) và MVL221/MVL207 (CH); sấy chân không tránh oxy hóa mà tủ sấy đối lưu thường không làm được.
 
 ---
@@ -175,10 +157,7 @@
   - *Đồ án môn học:* xây dựng mạch đọc + hiệu chuẩn cảm biến trong đồ án chế tạo cảm biến.
   - *Khóa luận/Luận văn:* nghiên cứu bù nhiệt–ẩm, giới hạn phát hiện 1 ppb cho đề tài cảm biến VOC.
 - **Mục đích / tác dụng kỹ thuật:** cho sinh viên thực hành trên cảm biến khí thương mại chuẩn công nghiệp: đo nồng độ VOC 0–20 ppm tuyến tính, hiểu cấu trúc điện cực – màng nhạy – mạch đọc; đồng thời dùng giám sát an toàn hơi dung môi trong phòng thí nghiệm.
-- **Yêu cầu phụ kiện & vật tư đi kèm:**
-  - Mạch khuếch đại/ghép trở tải đúng datasheet + ADC/data logger hoặc board MCU để đọc tín hiệu mV.
-  - **Khí chuẩn VOC (isobutylene ppm trong N₂) + hệ pha loãng khí** để hiệu chuẩn đường chuẩn (có thể dùng chung lưu lượng kế Mục 13).
-  - Cảm biến nhiệt độ–độ ẩm bù chéo; buồng thử khí kín nhỏ.
+- **Phụ kiện & vật tư đi kèm:** cảm biến nguyên khối kèm tài liệu hãng; mạch đọc/DAQ và buồng thử khí dùng chung trang bị hiện có của PTN. Không phát sinh mua bổ sung.
 - **Trình bày lý do (điền bảng):** Cảm biến chuẩn công nghiệp để dạy thực hành đặc tuyến – hiệu chuẩn cảm biến khí trong môn Công nghệ chế tạo cảm biến, Điện hóa bán dẫn (ĐH) và đề tài luận văn cảm biến; kiêm chức năng giám sát an toàn hơi dung môi phòng lab.
 
 ---
@@ -192,10 +171,7 @@
   - *Thực hành cơ bản:* bài so sánh hai nguyên lý đo VOC (điện hóa – Mục 7 và quang ion hóa – Mục 8): dải động, giới hạn phát hiện, độ chọn lọc.
   - *Đồ án môn học / Khóa luận:* thiết kế đầu đo VOC cầm tay hiệu chuẩn theo đương lượng isobutylene 100 ppb–4.000 ppm.
 - **Mục đích / tác dụng kỹ thuật:** đo VOC có thế ion hóa < 10,6 eV (benzene, toluene, isobutylene…) với dải động rộng 100 ppb–4.000 ppm, đáp ứng 2 s – bổ sung dải đo cao mà cảm biến điện hóa Mục 7 không phủ hết; minh họa ứng dụng nguồn UV trong phân tích khí.
-- **Yêu cầu phụ kiện & vật tư đi kèm:**
-  - Board đánh giá/mạch đọc tín hiệu của hãng hoặc mạch thiết kế kèm ADC.
-  - **Đèn UV 10,6 eV dự phòng** (hao mòn theo giờ hoạt động – vật tư tiêu hao đặc thù của PID) và bộ dụng cụ vệ sinh đèn.
-  - Khí chuẩn isobutylene 100 ppm + bẫy ẩm/lọc bụi bảo vệ đèn.
+- **Phụ kiện & vật tư đi kèm:** đèn UV 10,6 eV lắp sẵn trong cảm biến; mạch đọc/DAQ và buồng thử khí dùng chung trang bị hiện có của PTN. Không phát sinh mua bổ sung.
 - **Trình bày lý do (điền bảng):** Cặp cùng Mục 7 tạo bộ thí nghiệm đầy đủ hai nguyên lý đo VOC (ppb–ppm) cho môn Công nghệ chế tạo cảm biến và Quản lý an toàn thiết bị (ĐH); phục vụ giám sát hơi hữu cơ trong phòng thí nghiệm dung môi.
 
 ---
@@ -210,10 +186,7 @@
   - *Đồ án môn học:* pha chế dung dịch điện ly, sol-gel tiền chất theo khối lượng trong đồ án điện hóa/vật liệu năng lượng.
   - *Khóa luận/Luận văn:* phương pháp khối lượng (gravimetric) xác định tốc độ lắng đọng/ăn mòn màng mỏng.
 - **Mục đích / tác dụng kỹ thuật:** độ đọc 0,01 mg (dải 82 g) cho phép cân tiền chất, hóa chất, màng mỏng với sai số ±0,0001 g – ngưỡng mà cân kỹ thuật 0,1 g của PTN không đạt; hiệu chuẩn nội AutoCal giảm phụ thuộc quả cân ngoài.
-- **Yêu cầu phụ kiện & vật tư đi kèm:**
-  - **Bàn cân chống rung** (bàn đá/bàn chống rung chuyên dụng) và buồng chắn gió (xem kèm máy khi nghiệm thu).
-  - Quả chuẩn hạng E2/F1 để kiểm định định kỳ; thiết bị khử tĩnh điện (ionizer) – bắt buộc khi cân mẫu mg.
-  - Hộp chống ẩm + hạt hút ẩm, thuyền cân/giấy cân; ổn áp/UPS.
+- **Phụ kiện & vật tư đi kèm:** kèm theo máy: buồng chắn gió, đĩa cân Ø80 mm, adapter nguồn; bàn cân và quả chuẩn dùng theo hiện trạng PTN. Không phát sinh mua bổ sung.
 - **Trình bày lý do (điền bảng):** Đáp ứng yêu cầu cân chính xác 0,01 mg khi pha chế hóa chất và xác định khối lượng màng trong các môn chế tạo, điện hóa, vật liệu năng lượng (ĐH) và PVD–CVD (CH); cân hiện có của PTN chỉ đạt 0,1 g.
 
 ---
@@ -228,11 +201,7 @@
   - *Đồ án môn học:* khảo sát gradient nhiệt 2 vùng (chênh 200 °C) trong đồ án MVL208/MVL219.
   - *Khóa luận/Luận văn:* tăng trưởng vật liệu 1D (nanowire, graphene) bằng CVD nhiệt 2 vùng nguồn – phản ứng.
 - **Mục đích / tác dụng kỹ thuật:** hai vùng gia nhiệt độc lập tạo profile nhiệt phẳng (±1 °C trên 50 mm) hoặc gradient có kiểm soát – điều kiện chuẩn của khuếch tán nhiệt và CVD; mặt bích chân không + đường khí 1/4" cho phép chạy khí bảo vệ/khí phản ứng và hút chân không trước khi nung.
-- **Yêu cầu phụ kiện & vật tư đi kèm:**
-  - **Hệ bơm chân không** (rotary/dry) tương thích mặt bích; đồng hồ đo chân không.
-  - **Hệ cấp khí: bình khí + tủ bình + lưu lượng kế/MFC (dùng chung Mục 13)**, ống dẫn, van an toàn; hệ hút xả khí thải.
-  - Thuyền/quartz boat, ống thạch anh dự phòng (1"/2"), khối chặn sợi gốm dự phòng.
-  - Trang bị bảo hộ nhiệt, kìm gắp mẫu dài; hiệu chuẩn nhiệt độ bằng cặp nhiệt chuẩn.
+- **Phụ kiện & vật tư đi kèm:** kèm theo máy: mặt bích thép không gỉ làm kín chân không, khối chặn ống sợi gốm, van chân không SS, ống thạch anh 1"/2"; **bơm chân không dùng chung trang bị hiện có của PTN** (xác nhận 23/9/2026); lưu lượng khí giám sát bằng lưu lượng kế Mục 13 trong cùng danh mục. Không phát sinh mua bổ sung.
 - **Trình bày lý do (điền bảng):** Thiết bị công nghệ lõi cho nhóm môn chế tạo: oxy hóa nhiệt, khuếch tán tạp, CVD nhiệt (ĐH: SEM10003, SEM10130; CH: MVL208, MVL216, MVL219); cấu hình 2 vùng gradient phục vụ thí nghiệm tăng trưởng vật liệu nano trong luận văn.
 
 ---
@@ -247,11 +216,7 @@
   - *Đồ án môn học:* khảo sát ảnh hưởng nhiệt độ ủ (đến 1400 °C) tới cấu trúc màng trong đồ án vật liệu.
   - *Khóa luận/Luận văn:* quy trình ủ nhanh/chậm có kiểm soát khí cho đề tài màng chức năng, vật liệu năng lượng.
 - **Mục đích / tác dụng kỹ thuật:** đạt 1400 °C – ngưỡng cần cho kích hoạt tạp, kết tinh màng oxide, thiêu kết mà lò 1200 °C (Mục 10) không phủ hết; chân không 10⁻⁵ Torr và nhiều cổng khí cho phép ủ trong môi trường kiểm soát; gia nhiệt/làm nguội nhanh nhờ thanh SiC.
-- **Yêu cầu phụ kiện & vật tư đi kèm:**
-  - **Hệ bơm chân không phù hợp mức 10⁻⁵ Torr** (bơm rotary + turbo/khuếch tán) – chưa có trong danh mục gốc.
-  - Hệ cấp khí + **lưu lượng kế (Mục 13)**; ống dẫn, van; hệ hút xả.
-  - Thuyền alumina, miếng đệm/gasket mặt bích SS304 dự phòng; thanh nung SiC dự phòng (hao mòn theo chu kỳ nhiệt).
-  - Bùa hộ an nhiệt, kính chắn nhiệt; hiệu chuẩn cặp nhiệt loại S định kỳ.
+- **Phụ kiện & vật tư đi kèm:** kèm theo máy: ống alumina, mặt bích SS304, cặp nhiệt loại S; **bơm chân không dùng chung trang bị hiện có của PTN** (xác nhận 23/9/2026); lưu lượng khí giám sát bằng lưu lượng kế Mục 13 trong cùng danh mục. Không phát sinh mua bổ sung.
 - **Trình bày lý do (điền bảng):** Bổ sung năng lực xử lý nhiệt ≥1400 °C (ủ kích hoạt tạp, kết tinh, thiêu kết) cho các môn vật liệu – chế tạo (ĐH: SEM10120, SEM10130, SEM10116; CH: MVL208, MVL216, MVL217); số lượng 02 bộ đáp ứng hai lớp thực hành/đề tài chạy song song.
 
 ---
@@ -266,10 +231,7 @@
   - *Đồ án môn học:* chế tạo mạch in/điện cực bằng phơi sáng dry-film; đóng rắn keo UV gắn chip trong đồ án đóng gói.
   - *Khóa luận/Luận văn:* tối ưu liều phơi cho resist dày/màng SU-8, kiểm tra huỳnh quang mẫu.
 - **Mục đích / tác dụng kỹ thuật:** nguồn LED COB 365 nm công suất 100 W, cường độ 9,7 W/cm² điều chỉnh được – đúng bước sóng i-line của đa số resist quang khắc giáo trình; kính thạch anh hội tụ 60° cho phơi sáng sâu; hẹn giờ 1 s–999 phút bảo đảm lặp lại liều chiếu.
-- **Yêu cầu phụ kiện & vật tư đi kèm:**
-  - **Kính/bộ bảo hộ mắt UV 365 nm và buồng chắn tia** cho người vận hành.
-  - **Máy đo cường độ UV (radiometer 365 nm)** để hiệu chuẩn liều phơi định kỳ.
-  - Khung gá mask–mẫu (mask aligner đơn giản hoặc jig tiếp xúc); tủ hút cho hơi keo khi đóng rắn.
+- **Phụ kiện & vật tư đi kèm:** kèm theo máy: bộ nguồn MeanWell chế độ dòng không đổi, kính thạch anh hội tụ, bộ hẹn giờ kỹ thuật số; thiết bị vận hành độc lập, không phát sinh mua bổ sung.
 - **Trình bày lý do (điền bảng):** Nguồn phơi sáng i-line 365 nm cho bài thực hành quang khắc của môn Kỹ thuật vi chế tạo (ĐH) và MVL209 (CH), đồng thời đóng rắn keo UV/LOCA trong các môn công nghệ đóng gói; thay thế việc gửi mẫu gia công ngoài.
 
 ---
@@ -283,10 +245,7 @@
   - *Thực hành cơ bản:* bài đo và hiệu chuẩn lưu lượng khí N₂/O₂/Ar cấp vào lò ống (Mục 10, 11).
   - *Đồ án môn học / Khóa luận–Luận văn:* ghép tín hiệu I2C/analog 1–5 V vào hệ điều khiển để ổn định lưu lượng khí phản ứng trong quy trình CVD/oxy hóa.
 - **Mục đích / tác dụng kỹ thuật:** đo lưu lượng 0–100 sccm với sai số ±(1,5 % RD + 0,15 % FS), đáp ứng 2 ms, xuất tín hiệu số I2C và analog – đủ để vừa làm thiết bị đo dạy học vừa làm cảm biến phản hồi trong mạch điều khiển khí công nghệ; dải 100 sccm khớp lưu lượng khí điển hình của lò ống phòng lab (Mục 10, 11).
-- **Yêu cầu phụ kiện & vật tư đi kèm:**
-  - Nguồn cấp 8–15 V DC (hoặc đặt phiên bản 2,7–5,5 V nếu ghép MCU); board đọc I2C/DAQ analog + PC ghi log.
-  - Ống dẫn khí + fitting 1/8"–1/4", lọc khí đầu vào bảo vệ cảm biến.
-  - Chuẩn đối chứng để hiệu chuẩn (lưu lượng kế bọt xà phòng hoặc chuẩn hãng).
+- **Phụ kiện & vật tư đi kèm:** kèm theo cảm biến: cáp tín hiệu chuẩn hãng; ghép chung tuyến ống khí hiện có của lò ống (Mục 10–11); đọc tín hiệu bằng DAQ/PC hiện có của PTN. Không phát sinh mua bổ sung.
 - **Trình bày lý do (điền bảng):** Đo và kiểm soát lưu lượng khí công nghệ cấp cho lò ống Mục 10–11 trong các môn PVD–CVD, oxy hóa, chân không – màng mỏng (ĐH & CH); số lượng 05 cái tương ứng số tuyến khí (N₂, O₂, Ar, khí phản ứng, dự phòng).
 
 ---
@@ -373,10 +332,10 @@
 ## VI. KẾT LUẬN VÀ KIẾN NGHỊ
 
 1. **Tính cần thiết:** cả 13 danh mục đều gắn với ít nhất 01 môn học có thực hành của hệ đại học và/hoặc cao học; không trùng lặp chức năng với thiết bị hiện có (PTN chưa có SMU đa kênh, hệ đo 4 điểm, nguồn dòng pA và lò ống ≥1200 °C).
-2. **Kiến nghị bổ sung ngoài danh mục (để thiết bị vận hành ngay sau mua):** bơm chân không cho Mục 6 và hệ bơm 10⁻⁵ Torr cho Mục 11; nguồn 24 V DC cho Mục 2; khí chuẩn hiệu chuẩn cho Mục 7–8; bàn chống rung + ionizer cho Mục 9; radiometer UV + bảo hộ mắt cho Mục 12; hệ cấp khí/tủ bình khí dùng chung cho Mục 10–11–13. (Nêu tại giải trình từng mục, không lập phụ lục riêng.)
+2. **Xác nhận điều kiện vận hành ngay sau mua:** theo xác nhận của PTN (23/9/2026), bơm chân không dùng cho tủ sấy chân không (Mục 6) và các lò ống (Mục 10, 11) cũng như nguồn 24 V DC cho hệ đo điện trở bốn điểm (Mục 2) **đã sẵn có**; các phụ kiện còn lại đều kèm theo thiết bị hoặc dùng chung trang bị hiện có của PTN. Báo cáo không đề xuất mua bổ sung phụ kiện ngoài 13 danh mục.
 3. **Kiến nghị dữ liệu:** hiệu đính mã MVL216 trùng, tên môn MVL209, bổ sung mã môn còn thiếu và cập nhật đề cương các học phần chưa có dấu "x" để việc phân bổ bài thực hành theo chương được chính xác ở phiên bản báo cáo sau.
 4. **Hiệu lực bảo hành:** toàn bộ 13 danh mục ghi bảo hành 12 tháng – đề nghị giữ nguyên điều khoản này trong hồ sơ mời thầu.
 
 ---
 
-*Hết báo cáo – Bản v1.0 (Markdown). Khi cần bản Word (.docx) đúng mẫu bảng 11 cột để trình ký, sẽ chuyển đổi từ tài liệu này.*
+*Hết báo cáo – Bản v1.1. Bản Word (.docx) kèm theo được tạo tự động từ tài liệu này (script `tools/md2docx.py`); bảng tổng hợp 11 cột tự động đặt trên trang khổ ngang, các phần còn lại khổ A4 dọc, font Times New Roman 13 pt.*
