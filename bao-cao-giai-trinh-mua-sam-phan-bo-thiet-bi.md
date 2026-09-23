@@ -1,10 +1,12 @@
 # BÁO CÁO GIẢI TRÌNH MUA SẮM & PHÂN BỔ THIẾT BỊ
 
-**Gói thầu:** Đầu tư mua sắm thiết bị thí nghiệm (DTMS TBTN) ngành Công nghệ Bán dẫn
-**Đơn vị đề xuất:** Khoa Vật lý – Vật lý Kỹ thuật
-**Ngày lập:** 23/09/2026
-**Người lập:** *(chữ ký/cán bộ phụ trách phòng thí nghiệm)*
-**Phiên bản tài liệu:** v1.1 – phát hành song song Markdown (.md) và Word (.docx)
+| Hạng mục | Nội dung |
+|---|---|
+| **Gói thầu** | Đầu tư mua sắm thiết bị thí nghiệm (DTMS TBTN) ngành Công nghệ Bán dẫn |
+| **Đơn vị đề xuất** | Khoa Vật lý – Vật lý Kỹ thuật |
+| **Ngày lập** | 23/09/2026 |
+| **Người lập** | *(chữ ký/cán bộ phụ trách phòng thí nghiệm)* |
+| **Phiên bản tài liệu** | v1.3 – phát hành song song Markdown (.md) và Word (.docx) |
 
 ---
 
@@ -65,175 +67,157 @@
 
 ### Mục 1 – Thiết bị nguồn – đo SMU, mã P2005A2 (Ossila, Anh, 2026) – 01 bộ
 
-- **Môn học tiếp nhận:**
-  - ĐH: SEM10007 Thiết bị đo lường (chính); SEM10002 Vật lý linh kiện bán dẫn (chính); SEM10005 Tính chất đặc trưng của bán dẫn (chính); SEM10115 Quang điện tử bán dẫn; SEM10135 Công nghệ quang điện mặt trời; SEM10120 Vật liệu chuyển hóa năng lượng; SEM10118 Công nghệ chế tạo cảm biến; SEM10106 Quản lý chất lượng (Tester); SEM10108 Mô hình linh kiện bán dẫn (hỗ trợ – đối chiếu mô hình với đặc tuyến đo); PHY10005 Điện tử cơ bản (hỗ trợ).
-  - CH: MVL204 Kỹ thuật phân tích trong công nghệ bán dẫn (chính); MVL220 Chế tạo linh kiện bán dẫn – cấu trúc MOS; MVL218 Cấy ion; MVL219 Kỹ thuật pha tạp – nhiệt khuếch tán; Luận văn/đồ án PT1–PT3.
-- **Ứng dụng cụ thể (giai đoạn):**
-  - *Thực hành cơ bản:* bài đo đặc tuyến V–A của diode, LED, transistor; quét đường đặc tuyến nguồn–đo 2 kênh trong môn Thiết bị đo lường và Vật lý linh kiện bán dẫn.
-  - *Đồ án môn học:* đo kiểm thông số pin mặt trời (Isc, Voc, FF, hiệu suất) trong đồ án SEM10135/SEM10120; đo đáp ứng cảm biến trong đồ án SEM10118.
-  - *Khóa luận/Luận văn:* đặc tuyến I–V/C–V (gián tiếp qua quét điện áp) của linh kiện MOS, diode Schottky, OFET chế tạo trong luận văn.
-- **Mục đích / tác dụng kỹ thuật:** vừa cấp nguồn chính xác (±10 V, 5 dải dòng 10 nA–200 mA) vừa đo đồng thời dòng/áp trên cùng kênh (SMU), kèm 2 kênh vôn kế Vsense đo 4 dây khử điện trở dây dẫn; cho phép quét (sweep) tự động để dựng đặc tuyến, đo dòng rò, điện áp ngưỡng, điện trở nối tiếp, điện trở vi phân của linh kiện – năng lực mà nguồn lab thông thường + đồng hồ rời không đáp ứng được.
-- **Trình bày lý do (điền bảng):** Là thiết bị đo đặc tuyến I–V cốt lõi cho các môn Thiết bị đo lường, Vật lý linh kiện bán dẫn, Tính chất đặc trưng của bán dẫn (ĐH) và Kỹ thuật phân tích trong CNBD, chế tạo linh kiện MOS (CH); thiếu thiết bị này sinh viên không thực hiện được nhóm bài thực hành đặc tuyến linh kiện và luận văn không tự đo kiểm được linh kiện chế tạo.
+| Tiêu chí | Nội dung |
+|---|---|
+| **Môn học tiếp nhận** | ĐH: SEM10007 Thiết bị đo lường (chính); SEM10002 Vật lý linh kiện bán dẫn (chính); SEM10005 Tính chất đặc trưng của bán dẫn (chính); SEM10115 Quang điện tử bán dẫn; SEM10135 Công nghệ quang điện mặt trời; SEM10120 Vật liệu chuyển hóa năng lượng; SEM10118 Công nghệ chế tạo cảm biến; SEM10106 Quản lý chất lượng (Tester); SEM10108 Mô hình linh kiện bán dẫn (hỗ trợ – đối chiếu mô hình với đặc tuyến đo); PHY10005 Điện tử cơ bản (hỗ trợ).<br>CH: MVL204 Kỹ thuật phân tích trong công nghệ bán dẫn (chính); MVL220 Chế tạo linh kiện bán dẫn – cấu trúc MOS; MVL218 Cấy ion; MVL219 Kỹ thuật pha tạp – nhiệt khuếch tán; Luận văn/đồ án PT1–PT3. |
+| **Ứng dụng cụ thể (giai đoạn)** | • *Thực hành cơ bản:* bài đo đặc tuyến V–A của diode, LED, transistor; quét đường đặc tuyến nguồn–đo 2 kênh trong môn Thiết bị đo lường và Vật lý linh kiện bán dẫn.<br>• *Đồ án môn học:* đo kiểm thông số pin mặt trời (Isc, Voc, FF, hiệu suất) trong đồ án SEM10135/SEM10120; đo đáp ứng cảm biến trong đồ án SEM10118.<br>• *Khóa luận/Luận văn:* đặc tuyến I–V/C–V (gián tiếp qua quét điện áp) của linh kiện MOS, diode Schottky, OFET chế tạo trong luận văn. |
+| **Mục đích / tác dụng kỹ thuật** | Vừa cấp nguồn chính xác (±10 V, 5 dải dòng 10 nA–200 mA) vừa đo đồng thời dòng/áp trên cùng kênh (SMU), kèm 2 kênh vôn kế Vsense đo 4 dây khử điện trở dây dẫn; cho phép quét (sweep) tự động để dựng đặc tuyến, đo dòng rò, điện áp ngưỡng, điện trở nối tiếp, điện trở vi phân của linh kiện – năng lực mà nguồn lab thông thường + đồng hồ rời không đáp ứng được. |
+| **Trình bày lý do (điền bảng)** | Là thiết bị đo đặc tuyến I–V cốt lõi cho các môn Thiết bị đo lường, Vật lý linh kiện bán dẫn, Tính chất đặc trưng của bán dẫn (ĐH) và Kỹ thuật phân tích trong CNBD, chế tạo linh kiện MOS (CH); thiếu thiết bị này sinh viên không thực hiện được nhóm bài thực hành đặc tuyến linh kiện và luận văn không tự đo kiểm được linh kiện chế tạo. |
+
 
 ---
 
 ### Mục 2 – Hệ thống đo điện trở bốn điểm, mã T2001A4 (Ossila, Anh, 2026) – 01 bộ
 
-- **Môn học tiếp nhận:**
-  - ĐH: SEM10005 Tính chất đặc trưng của bán dẫn (chính); SEM10003 Công nghệ chế tạo bán dẫn cơ bản (chính); SEM10105 Sản xuất linh kiện bán dẫn và kiểm soát quy trình (chính); SEM10106 Quản lý chất lượng (Tester); SEM10117 Kỹ thuật phân tích vật liệu bán dẫn; SEM10130 Kỹ thuật chân không và màng mỏng (đề cương đang cập nhật); SEM10135 Công nghệ quang điện mặt trời (đo màng TCO); SEM10007 Thiết bị đo lường (hỗ trợ).
-  - CH: MVL207 Quá trình xử lý wafer; MVL216 Phương pháp PVD and CVD; MVL218 Cấy ion; MVL219 Kỹ thuật pha tạp – nhiệt khuếch tán; MVL217 Wafer silic; MVL204; Luận văn PT1–PT2.
-- **Ứng dụng cụ thể (giai đoạn):**
-  - *Thực hành cơ bản:* bài đo điện trở tấm (sheet resistance) và điện trở suất màng mỏng/lớp khuếch tán sau mỗi công đoạn chế tạo.
-  - *Đồ án môn học:* lập bản đồ đồng đều điện trở tấm trên wafer ≤ 6 inch trong đồ án kiểm soát quy trình (SEM10105).
-  - *Khóa luận/Luận văn:* đánh giá điện trở lớp tiếp xúc, lớp TCO, lớp pha tạp sau ủ trong các đề tài màng mỏng.
-- **Mục đích / tác dụng kỹ thuật:** đo điện trở tấm 100 mΩ/sq – 10 MΩ/sq bằng phương pháp 4 mũi dò, **loại bỏ sai số điện trở tiếp xúc và điện trở dây** – chỉ tiêu bắt buộc khi đánh giá chất lượng lớp pha tạp/màng lắng đọng; đầu dò lò xo lực không đổi 60 g bảo vệ màng mỏng/polymer dễ tổn thương do sinh viên thao tác.
-- **Trình bày lý do (điền bảng):** Phục vụ đo điện trở tấm – chỉ tiêu kiểm soát quy trình bắt buộc của các môn chế tạo/phân tích vật liệu bán dẫn (ĐH: SEM10003, SEM10005, SEM10105; CH: MVL207, MVL216, MVL218, MVL219); phương pháp 4 điểm loại bỏ điện trở tiếp xúc mà đồng hồ VOM/SMU đo 2 dây không thực hiện được.
+| Tiêu chí | Nội dung |
+|---|---|
+| **Môn học tiếp nhận** | ĐH: SEM10005 Tính chất đặc trưng của bán dẫn (chính); SEM10003 Công nghệ chế tạo bán dẫn cơ bản (chính); SEM10105 Sản xuất linh kiện bán dẫn và kiểm soát quy trình (chính); SEM10106 Quản lý chất lượng (Tester); SEM10117 Kỹ thuật phân tích vật liệu bán dẫn; SEM10130 Kỹ thuật chân không và màng mỏng (đề cương đang cập nhật); SEM10135 Công nghệ quang điện mặt trời (đo màng TCO); SEM10007 Thiết bị đo lường (hỗ trợ).<br>CH: MVL207 Quá trình xử lý wafer; MVL216 Phương pháp PVD and CVD; MVL218 Cấy ion; MVL219 Kỹ thuật pha tạp – nhiệt khuếch tán; MVL217 Wafer silic; MVL204; Luận văn PT1–PT2. |
+| **Ứng dụng cụ thể (giai đoạn)** | • *Thực hành cơ bản:* bài đo điện trở tấm (sheet resistance) và điện trở suất màng mỏng/lớp khuếch tán sau mỗi công đoạn chế tạo.<br>• *Đồ án môn học:* lập bản đồ đồng đều điện trở tấm trên wafer ≤ 6 inch trong đồ án kiểm soát quy trình (SEM10105).<br>• *Khóa luận/Luận văn:* đánh giá điện trở lớp tiếp xúc, lớp TCO, lớp pha tạp sau ủ trong các đề tài màng mỏng. |
+| **Mục đích / tác dụng kỹ thuật** | Đo điện trở tấm 100 mΩ/sq – 10 MΩ/sq bằng phương pháp 4 mũi dò, **loại bỏ sai số điện trở tiếp xúc và điện trở dây** – chỉ tiêu bắt buộc khi đánh giá chất lượng lớp pha tạp/màng lắng đọng; đầu dò lò xo lực không đổi 60 g bảo vệ màng mỏng/polymer dễ tổn thương do sinh viên thao tác. |
+| **Trình bày lý do (điền bảng)** | Phục vụ đo điện trở tấm – chỉ tiêu kiểm soát quy trình bắt buộc của các môn chế tạo/phân tích vật liệu bán dẫn (ĐH: SEM10003, SEM10005, SEM10105; CH: MVL207, MVL216, MVL218, MVL219); phương pháp 4 điểm loại bỏ điện trở tiếp xúc mà đồng hồ VOM/SMU đo 2 dây không thực hiện được. |
+
 
 ---
 
 ### Mục 3 – Bộ chuyển đổi GPIB–USB, mã 82357B (Keysight, Mỹ, 2026) – 05 bộ
 
-- **Môn học tiếp nhận:**
-  - ĐH: SEM10007 Thiết bị đo lường (chính – bài ghép nối và tự động hóa hệ đo); SEM10105 Sản xuất linh kiện bán dẫn và kiểm soát quy trình (hỗ trợ – thu thập dữ liệu trực tuyến); SEM10106 Quản lý chất lượng (Tester) (hỗ trợ – trạm test tự động).
-  - CH: MVL204 Kỹ thuật phân tích trong công nghệ bán dẫn; Luận văn/đồ án PT1–PT3 (hệ đo tự động quét nhiều thông số).
-- **Ứng dụng cụ thể (giai đoạn):**
-  - *Thực hành cơ bản:* bài thực hành giao tiếp máy đo – máy tính (SCPI/IEEE-488), lập trình quét đo tự động trong môn Thiết bị đo lường.
-  - *Đồ án môn học / Khóa luận–Luận văn:* xây dựng hệ đo tự động ghép nhiều thiết bị (mục 4: 6221 + 2182A; các máy đo GPIB sẵn có của PTN), ghi log dữ liệu dài kỳ (ủ, lão hóa, quét nhiệt độ).
-- **Mục đích / tác dụng kỹ thuật:** nối trực tiếp cổng USB máy tính tới chuẩn IEEE-488 (GPIB), điều khiển tối đa 14 thiết bị/dải, tốc độ >1,15 MB/s, plug-and-play không cần card GPIB nội bộ; là "cầu nối" bắt buộc để khai thác các thiết bị chuẩn công nghiệp (Keithley 6221/2182A có GPIB) trong dạy thực hành đo lường tự động.
-- **Trình bày lý do (điền bảng):** Đồng bộ kèm mục 4 và các máy đo chuẩn GPIB hiện có để xây dựng trạm đo tự động phục môn Thiết bị đo lường (ĐH) và luận văn (CH); số lượng 05 bộ đủ trang bị đồng thời cho 05 trạm thực hành đo lường.
+| Tiêu chí | Nội dung |
+|---|---|
+| **Môn học tiếp nhận** | ĐH: SEM10007 Thiết bị đo lường (chính – bài ghép nối và tự động hóa hệ đo); SEM10105 Sản xuất linh kiện bán dẫn và kiểm soát quy trình (hỗ trợ – thu thập dữ liệu trực tuyến); SEM10106 Quản lý chất lượng (Tester) (hỗ trợ – trạm test tự động).<br>CH: MVL204 Kỹ thuật phân tích trong công nghệ bán dẫn; Luận văn/đồ án PT1–PT3 (hệ đo tự động quét nhiều thông số). |
+| **Ứng dụng cụ thể (giai đoạn)** | • *Thực hành cơ bản:* bài thực hành giao tiếp máy đo – máy tính (SCPI/IEEE-488), lập trình quét đo tự động trong môn Thiết bị đo lường.<br>• *Đồ án môn học / Khóa luận–Luận văn:* xây dựng hệ đo tự động ghép nhiều thiết bị (mục 4: 6221 + 2182A; các máy đo GPIB sẵn có của PTN), ghi log dữ liệu dài kỳ (ủ, lão hóa, quét nhiệt độ). |
+| **Mục đích / tác dụng kỹ thuật** | Nối trực tiếp cổng USB máy tính tới chuẩn IEEE-488 (GPIB), điều khiển tối đa 14 thiết bị/dải, tốc độ >1,15 MB/s, plug-and-play không cần card GPIB nội bộ; là "cầu nối" bắt buộc để khai thác các thiết bị chuẩn công nghiệp (Keithley 6221/2182A có GPIB) trong dạy thực hành đo lường tự động. |
+| **Trình bày lý do (điền bảng)** | Đồng bộ kèm mục 4 và các máy đo chuẩn GPIB hiện có để xây dựng trạm đo tự động phục môn Thiết bị đo lường (ĐH) và luận văn (CH); số lượng 05 bộ đủ trang bị đồng thời cho 05 trạm thực hành đo lường. |
+
 
 ---
 
 ### Mục 4 – Nguồn dòng AC/DC chính xác Keithley 6221 (kèm Nanovoltmeter 2182A) – 01 bộ
 
-- **Môn học tiếp nhận:**
-  - ĐH: SEM10007 Thiết bị đo lường (chính); SEM10001 Vật lý chất rắn và bán dẫn (chính – đo điện trở suất, hệ số nhiệt điện trở); SEM10005 Tính chất đặc trưng của bán dẫn (chính); SEM10104 Quản lý nhiệt cho linh kiện điện tử (hỗ trợ – đo xung tránh tự gia nhiệt); SEM10120 Vật liệu chuyển hóa năng lượng; SEM10118 Công nghệ chế tạo cảm biến; SEM10122 Điện hóa bán dẫn (hỗ trợ).
-  - CH: MVL204; MVL220; MVL218/MVL219 (đo kiểm lớp pha tạp điện trở lớn); Luận văn PT1–PT2 (đo vận chuyển điện ở mức tín hiệu yếu).
-- **Ứng dụng cụ thể (giai đoạn):**
-  - *Thực hành cơ bản:* bài đo điện trở/điện trở suất vật liệu bằng phương pháp nguồn dòng – đo áp; bài đo hệ số nhiệt điện trở theo nhiệt độ.
-  - *Đồ án môn học:* đo đặc tuyến cảm biến, vật liệu nhiệt điện trong đồ án SEM10118/SEM10120.
-  - *Khóa luận/Luận văn:* phép đo **chế độ Delta** (đảo chiều dòng, khử sức điện động nhiệt) và đo xung cho mẫu điện trở thấp/tự gia nhiệt; đo điện trở cách điện, dòng rò cỡ nA.
-- **Mục đích / tác dụng kỹ thuật:** cấp dòng chính xác từ ±2 nA (DC)/2 pA (AC) đến 100 mA và đo áp nano-vôn bằng 2182A đi kèm; chế độ Delta triệt tiêu EMF nhiệt – sai số chi phối khi đo mẫu trở thấp; dạng sóng tùy ý + xung lập trình được phục vụ khảo sát đáp ứng tần số của cảm biến/vật liệu.
-- **Trình bày lý do (điền bảng):** Cặp nguồn dòng 6221 + nanovoltmeter 2182A cho phép đo điện trở suất, điện trở tiếp xúc và đặc tuyến vận chuyển ở mức tín hiệu pA–nV (chế độ Delta) phục vụ Vật lý chất rắn và bán dẫn, Tính chất đặc trưng của bán dẫn, Thiết bị đo lường (ĐH) và luận văn cao học; không thiết bị sẵn có nào của PTN đạt độ phân giải này.
+| Tiêu chí | Nội dung |
+|---|---|
+| **Môn học tiếp nhận** | ĐH: SEM10007 Thiết bị đo lường (chính); SEM10001 Vật lý chất rắn và bán dẫn (chính – đo điện trở suất, hệ số nhiệt điện trở); SEM10005 Tính chất đặc trưng của bán dẫn (chính); SEM10104 Quản lý nhiệt cho linh kiện điện tử (hỗ trợ – đo xung tránh tự gia nhiệt); SEM10120 Vật liệu chuyển hóa năng lượng; SEM10118 Công nghệ chế tạo cảm biến; SEM10122 Điện hóa bán dẫn (hỗ trợ).<br>CH: MVL204; MVL220; MVL218/MVL219 (đo kiểm lớp pha tạp điện trở lớn); Luận văn PT1–PT2 (đo vận chuyển điện ở mức tín hiệu yếu). |
+| **Ứng dụng cụ thể (giai đoạn)** | • *Thực hành cơ bản:* bài đo điện trở/điện trở suất vật liệu bằng phương pháp nguồn dòng – đo áp; bài đo hệ số nhiệt điện trở theo nhiệt độ.<br>• *Đồ án môn học:* đo đặc tuyến cảm biến, vật liệu nhiệt điện trong đồ án SEM10118/SEM10120.<br>• *Khóa luận/Luận văn:* phép đo **chế độ Delta** (đảo chiều dòng, khử sức điện động nhiệt) và đo xung cho mẫu điện trở thấp/tự gia nhiệt; đo điện trở cách điện, dòng rò cỡ nA. |
+| **Mục đích / tác dụng kỹ thuật** | Cấp dòng chính xác từ ±2 nA (DC)/2 pA (AC) đến 100 mA và đo áp nano-vôn bằng 2182A đi kèm; chế độ Delta triệt tiêu EMF nhiệt – sai số chi phối khi đo mẫu trở thấp; dạng sóng tùy ý + xung lập trình được phục vụ khảo sát đáp ứng tần số của cảm biến/vật liệu. |
+| **Trình bày lý do (điền bảng)** | Cặp nguồn dòng 6221 + nanovoltmeter 2182A cho phép đo điện trở suất, điện trở tiếp xúc và đặc tuyến vận chuyển ở mức tín hiệu pA–nV (chế độ Delta) phục vụ Vật lý chất rắn và bán dẫn, Tính chất đặc trưng của bán dẫn, Thiết bị đo lường (ĐH) và luận văn cao học; không thiết bị sẵn có nào của PTN đạt độ phân giải này. |
+
 
 ---
 
 ### Mục 5 – Cáp triaxial, đầu cắm TRB 3 khe sang móc thử, mã 237-ALG-2 (Keithley, Mỹ, 2026) – 05 cái
 
-- **Môn học tiếp nhận:** dùng chung cho mọi môn có sử dụng Mục 1 và Mục 4 (SEM10007, SEM10001, SEM10005, MVL204, luận văn…).
-- **Ứng dụng cụ thể (giai đoạn):** *Thực hành cơ bản* – bài thực hành kỹ thuật đo dòng nhỏ: sinh viên nhận biết ảnh hưởng của nhiễu/rò điện khi đổi cấu hình cáp (2 dây → coaxial → triaxial có guard).
-- **Mục đích / tác dụng kỹ thuật:** cấu trúc trục ba có lớp guard triệt tiêu dòng rò và nhiễu điện dung, bảo đảm phép đo 10 nA–200 mA và nV của Mục 1/Mục 4 đạt đúng độ phân giải công bố; điện trở cách điện 10¹⁵ Ω; đầu kẹp cá sấu thuận tiện gá mẫu trong bài thực hành.
-- **Trình bày lý do (điền bảng):** Phụ kiện bắt buộc đồng bộ theo Mục 1 và Mục 4 để bảo đảm chất lượng đo dòng nhỏ; trang bị 05 cái cho 05 trạm đo, có dự phòng hao mòn do sinh viên thao tác.
+| Tiêu chí | Nội dung |
+|---|---|
+| **Môn học tiếp nhận** | dùng chung cho mọi môn có sử dụng Mục 1 và Mục 4 (SEM10007, SEM10001, SEM10005, MVL204, luận văn…). |
+| **Ứng dụng cụ thể (giai đoạn)** | *Thực hành cơ bản* – bài thực hành kỹ thuật đo dòng nhỏ: sinh viên nhận biết ảnh hưởng của nhiễu/rò điện khi đổi cấu hình cáp (2 dây → coaxial → triaxial có guard). |
+| **Mục đích / tác dụng kỹ thuật** | Cấu trúc trục ba có lớp guard triệt tiêu dòng rò và nhiễu điện dung, bảo đảm phép đo 10 nA–200 mA và nV của Mục 1/Mục 4 đạt đúng độ phân giải công bố; điện trở cách điện 10¹⁵ Ω; đầu kẹp cá sấu thuận tiện gá mẫu trong bài thực hành. |
+| **Trình bày lý do (điền bảng)** | Phụ kiện bắt buộc đồng bộ theo Mục 1 và Mục 4 để bảo đảm chất lượng đo dòng nhỏ; trang bị 05 cái cho 05 trạm đo, có dự phòng hao mòn do sinh viên thao tác. |
+
 
 ---
 
 ### Mục 6 – Tủ sấy chân không, mã DH.SWOV03030 (DaiHan, Hàn Quốc, 2026) – 01 cái
 
-- **Môn học tiếp nhận:**
-  - ĐH: SEM10003 Công nghệ chế tạo bán dẫn cơ bản (chính – sấy mẫu sau rửa); SEM10004 Kỹ thuật vi chế tạo (chính – ủ mềm/ủ cứng resist nhiệt độ thấp); SEM10122 Điện hóa bán dẫn; SEM10120 Vật liệu chuyển hóa năng lượng; SEM10118 Công nghệ chế tạo cảm biến; SEM10103 Công nghệ đóng gói nâng cao (đóng rắn polymer/underfill ≤ 200 °C); SEM10130 Kỹ thuật chân không và màng mỏng (đề cương đang cập nhật).
-  - CH: MVL221 Các quy trình sạch trong CNBD (chính); MVL207 Quá trình xử lý wafer; MVL226 Quy trình đóng gói; Luận văn PT1–PT2.
-- **Ứng dụng cụ thể (giai đoạn):**
-  - *Thực hành cơ bản:* công đoạn sấy/ổn định mẫu sau bước rửa hóa học (chuỗi bài làm sạch wafer).
-  - *Đồ án môn học:* khảo sát chế độ ủ ảnh hưởng tới độ bám dính/độ dày màng resist trong đồ án vi chế tạo.
-  - *Khóa luận/Luận văn:* sấy chân không mẫu nhạy oxy hóa, đóng rắn màng polymer/keo dẫn trong đề tài đóng gói, cảm biến.
-- **Mục đích / tác dụng kỹ thuật:** sấy/ủ ở chân không (10–750 mmHg) giúp bốc hơi nước/dung môi ở nhiệt độ thấp hơn, tránh oxy hóa bề mặt mẫu; độ ổn định ±0,5 °C và đồng đều ±2–3 °C bảo đảm tính lặp lại của công đoạn – yêu cầu bắt buộc của quy trình sạch.
-- **Trình bày lý do (điền bảng):** Hoàn thiện chuỗi công đoạn làm sạch – sấy mẫu của môn Các quy trình sạch trong CNBD, Công nghệ chế tạo bán dẫn cơ bản, Kỹ thuật vi chế tạo (ĐH) và MVL221/MVL207 (CH); sấy chân không tránh oxy hóa mà tủ sấy đối lưu thường không làm được.
+| Tiêu chí | Nội dung |
+|---|---|
+| **Môn học tiếp nhận** | ĐH: SEM10003 Công nghệ chế tạo bán dẫn cơ bản (chính – sấy mẫu sau rửa); SEM10004 Kỹ thuật vi chế tạo (chính – ủ mềm/ủ cứng resist nhiệt độ thấp); SEM10122 Điện hóa bán dẫn; SEM10120 Vật liệu chuyển hóa năng lượng; SEM10118 Công nghệ chế tạo cảm biến; SEM10103 Công nghệ đóng gói nâng cao (đóng rắn polymer/underfill ≤ 200 °C); SEM10130 Kỹ thuật chân không và màng mỏng (đề cương đang cập nhật).<br>CH: MVL221 Các quy trình sạch trong CNBD (chính); MVL207 Quá trình xử lý wafer; MVL226 Quy trình đóng gói; Luận văn PT1–PT2. |
+| **Ứng dụng cụ thể (giai đoạn)** | • *Thực hành cơ bản:* công đoạn sấy/ổn định mẫu sau bước rửa hóa học (chuỗi bài làm sạch wafer).<br>• *Đồ án môn học:* khảo sát chế độ ủ ảnh hưởng tới độ bám dính/độ dày màng resist trong đồ án vi chế tạo.<br>• *Khóa luận/Luận văn:* sấy chân không mẫu nhạy oxy hóa, đóng rắn màng polymer/keo dẫn trong đề tài đóng gói, cảm biến. |
+| **Mục đích / tác dụng kỹ thuật** | Sấy/ủ ở chân không (10–750 mmHg) giúp bốc hơi nước/dung môi ở nhiệt độ thấp hơn, tránh oxy hóa bề mặt mẫu; độ ổn định ±0,5 °C và đồng đều ±2–3 °C bảo đảm tính lặp lại của công đoạn – yêu cầu bắt buộc của quy trình sạch. |
+| **Trình bày lý do (điền bảng)** | Hoàn thiện chuỗi công đoạn làm sạch – sấy mẫu của môn Các quy trình sạch trong CNBD, Công nghệ chế tạo bán dẫn cơ bản, Kỹ thuật vi chế tạo (ĐH) và MVL221/MVL207 (CH); sấy chân không tránh oxy hóa mà tủ sấy đối lưu thường không làm được. |
+
 
 ---
 
 ### Mục 7 – Cảm biến khí VOC, mã SKU:000-0022-AY5 (Alphasense, Anh, 2026) – 01 cái
 
-- **Môn học tiếp nhận:**
-  - ĐH: SEM10118 Công nghệ chế tạo cảm biến (chính); SEM10122 Điện hóa bán dẫn (chính – nguyên lý cảm biến khí điện hóa); SEM10107 Quản lý an toàn thiết bị (Safety) (hỗ trợ – giám sát hơi dung môi); SEM10109 Kỹ thuật mô phỏng (hỗ trợ – mô hình hóa đáp ứng cảm biến).
-  - CH: luận văn/đồ án theo hướng cảm biến khí, giám sát môi trường phòng sạch.
-- **Ứng dụng cụ thể (giai đoạn):**
-  - *Thực hành cơ bản:* bài khảo sát đặc tuyến tĩnh/động của cảm biến khí: độ nhạy (60–110 mV/ppm), thời gian đáp ứng t₉₀ < 4 s, đường chuẩn nồng độ.
-  - *Đồ án môn học:* xây dựng mạch đọc + hiệu chuẩn cảm biến trong đồ án chế tạo cảm biến.
-  - *Khóa luận/Luận văn:* nghiên cứu bù nhiệt–ẩm, giới hạn phát hiện 1 ppb cho đề tài cảm biến VOC.
-- **Mục đích / tác dụng kỹ thuật:** cho sinh viên thực hành trên cảm biến khí thương mại chuẩn công nghiệp: đo nồng độ VOC 0–20 ppm tuyến tính, hiểu cấu trúc điện cực – màng nhạy – mạch đọc; đồng thời dùng giám sát an toàn hơi dung môi trong phòng thí nghiệm.
-- **Trình bày lý do (điền bảng):** Cảm biến chuẩn công nghiệp để dạy thực hành đặc tuyến – hiệu chuẩn cảm biến khí trong môn Công nghệ chế tạo cảm biến, Điện hóa bán dẫn (ĐH) và đề tài luận văn cảm biến; kiêm chức năng giám sát an toàn hơi dung môi phòng lab.
+| Tiêu chí | Nội dung |
+|---|---|
+| **Môn học tiếp nhận** | ĐH: SEM10118 Công nghệ chế tạo cảm biến (chính); SEM10122 Điện hóa bán dẫn (chính – nguyên lý cảm biến khí điện hóa); SEM10107 Quản lý an toàn thiết bị (Safety) (hỗ trợ – giám sát hơi dung môi); SEM10109 Kỹ thuật mô phỏng (hỗ trợ – mô hình hóa đáp ứng cảm biến).<br>CH: luận văn/đồ án theo hướng cảm biến khí, giám sát môi trường phòng sạch. |
+| **Ứng dụng cụ thể (giai đoạn)** | • *Thực hành cơ bản:* bài khảo sát đặc tuyến tĩnh/động của cảm biến khí: độ nhạy (60–110 mV/ppm), thời gian đáp ứng t₉₀ < 4 s, đường chuẩn nồng độ.<br>• *Đồ án môn học:* xây dựng mạch đọc + hiệu chuẩn cảm biến trong đồ án chế tạo cảm biến.<br>• *Khóa luận/Luận văn:* nghiên cứu bù nhiệt–ẩm, giới hạn phát hiện 1 ppb cho đề tài cảm biến VOC. |
+| **Mục đích / tác dụng kỹ thuật** | Cho sinh viên thực hành trên cảm biến khí thương mại chuẩn công nghiệp: đo nồng độ VOC 0–20 ppm tuyến tính, hiểu cấu trúc điện cực – màng nhạy – mạch đọc; đồng thời dùng giám sát an toàn hơi dung môi trong phòng thí nghiệm. |
+| **Trình bày lý do (điền bảng)** | Cảm biến chuẩn công nghiệp để dạy thực hành đặc tuyến – hiệu chuẩn cảm biến khí trong môn Công nghệ chế tạo cảm biến, Điện hóa bán dẫn (ĐH) và đề tài luận văn cảm biến; kiêm chức năng giám sát an toàn hơi dung môi phòng lab. |
+
 
 ---
 
 ### Mục 8 – Cảm biến quang ion hóa, mã PID-A15 (Alphasense, Anh, 2026) – 01 cái
 
-- **Môn học tiếp nhận:**
-  - ĐH: SEM10118 Công nghệ chế tạo cảm biến (chính); SEM10107 Quản lý an toàn thiết bị (Safety) (chính – nguyên lý giám sát VOC phòng lab); SEM10119 Chiếu sáng thông minh, laser và quang tử học (hỗ trợ – nguồn UV/ion hóa quang); SEM10122 Điện hóa bán dẫn (hỗ trợ).
-  - CH: luận văn hướng cảm biến/an toàn môi trường phòng sạch.
-- **Ứng dụng cụ thể (giai đoạn):**
-  - *Thực hành cơ bản:* bài so sánh hai nguyên lý đo VOC (điện hóa – Mục 7 và quang ion hóa – Mục 8): dải động, giới hạn phát hiện, độ chọn lọc.
-  - *Đồ án môn học / Khóa luận:* thiết kế đầu đo VOC cầm tay hiệu chuẩn theo đương lượng isobutylene 100 ppb–4.000 ppm.
-- **Mục đích / tác dụng kỹ thuật:** đo VOC có thế ion hóa < 10,6 eV (benzene, toluene, isobutylene…) với dải động rộng 100 ppb–4.000 ppm, đáp ứng 2 s – bổ sung dải đo cao mà cảm biến điện hóa Mục 7 không phủ hết; minh họa ứng dụng nguồn UV trong phân tích khí.
-- **Trình bày lý do (điền bảng):** Cặp cùng Mục 7 tạo bộ thí nghiệm đầy đủ hai nguyên lý đo VOC (ppb–ppm) cho môn Công nghệ chế tạo cảm biến và Quản lý an toàn thiết bị (ĐH); phục vụ giám sát hơi hữu cơ trong phòng thí nghiệm dung môi.
+| Tiêu chí | Nội dung |
+|---|---|
+| **Môn học tiếp nhận** | ĐH: SEM10118 Công nghệ chế tạo cảm biến (chính); SEM10107 Quản lý an toàn thiết bị (Safety) (chính – nguyên lý giám sát VOC phòng lab); SEM10119 Chiếu sáng thông minh, laser và quang tử học (hỗ trợ – nguồn UV/ion hóa quang); SEM10122 Điện hóa bán dẫn (hỗ trợ).<br>CH: luận văn hướng cảm biến/an toàn môi trường phòng sạch. |
+| **Ứng dụng cụ thể (giai đoạn)** | • *Thực hành cơ bản:* bài so sánh hai nguyên lý đo VOC (điện hóa – Mục 7 và quang ion hóa – Mục 8): dải động, giới hạn phát hiện, độ chọn lọc.<br>• *Đồ án môn học / Khóa luận:* thiết kế đầu đo VOC cầm tay hiệu chuẩn theo đương lượng isobutylene 100 ppb–4.000 ppm. |
+| **Mục đích / tác dụng kỹ thuật** | Đo VOC có thế ion hóa < 10,6 eV (benzene, toluene, isobutylene…) với dải động rộng 100 ppb–4.000 ppm, đáp ứng 2 s – bổ sung dải đo cao mà cảm biến điện hóa Mục 7 không phủ hết; minh họa ứng dụng nguồn UV trong phân tích khí. |
+| **Trình bày lý do (điền bảng)** | Cặp cùng Mục 7 tạo bộ thí nghiệm đầy đủ hai nguyên lý đo VOC (ppb–ppm) cho môn Công nghệ chế tạo cảm biến và Quản lý an toàn thiết bị (ĐH); phục vụ giám sát hơi hữu cơ trong phòng thí nghiệm dung môi. |
+
 
 ---
 
 ### Mục 9 – Cân bán vi lượng, mã OHAUS PX225D (OHAUS, Trung Quốc, 2026) – 01 bộ
 
-- **Môn học tiếp nhận:**
-  - ĐH: SEM10003 Công nghệ chế tạo bán dẫn cơ bản (chính – cân pha hóa chất); SEM10122 Điện hóa bán dẫn (chính); SEM10120 Vật liệu chuyển hóa năng lượng; SEM10118 Công nghệ chế tạo cảm biến; SEM10117 Kỹ thuật phân tích vật liệu bán dẫn (hỗ trợ – khối lượng mẫu); SEM10121 Phương pháp phân tích khuyết tật bán dẫn (hỗ trợ).
-  - CH: MVL216 Phương pháp PVD and CVD (cân khối lượng màng lắng đọng suy ra tốc độ lắng đọng); MVL217 Wafer silic; Luận văn PT1–PT2.
-- **Ứng dụng cụ thể (giai đoạn):**
-  - *Thực hành cơ bản:* bài thực hành kỹ thuật cân phân tích/bán vi lượng, quy tắc chống tĩnh điện – chống rung khi cân mg.
-  - *Đồ án môn học:* pha chế dung dịch điện ly, sol-gel tiền chất theo khối lượng trong đồ án điện hóa/vật liệu năng lượng.
-  - *Khóa luận/Luận văn:* phương pháp khối lượng (gravimetric) xác định tốc độ lắng đọng/ăn mòn màng mỏng.
-- **Mục đích / tác dụng kỹ thuật:** độ đọc 0,01 mg (dải 82 g) cho phép cân tiền chất, hóa chất, màng mỏng với sai số ±0,0001 g – ngưỡng mà cân kỹ thuật 0,1 g của PTN không đạt; hiệu chuẩn nội AutoCal giảm phụ thuộc quả cân ngoài.
-- **Trình bày lý do (điền bảng):** Đáp ứng yêu cầu cân chính xác 0,01 mg khi pha chế hóa chất và xác định khối lượng màng trong các môn chế tạo, điện hóa, vật liệu năng lượng (ĐH) và PVD–CVD (CH); cân hiện có của PTN chỉ đạt 0,1 g.
+| Tiêu chí | Nội dung |
+|---|---|
+| **Môn học tiếp nhận** | ĐH: SEM10003 Công nghệ chế tạo bán dẫn cơ bản (chính – cân pha hóa chất); SEM10122 Điện hóa bán dẫn (chính); SEM10120 Vật liệu chuyển hóa năng lượng; SEM10118 Công nghệ chế tạo cảm biến; SEM10117 Kỹ thuật phân tích vật liệu bán dẫn (hỗ trợ – khối lượng mẫu); SEM10121 Phương pháp phân tích khuyết tật bán dẫn (hỗ trợ).<br>CH: MVL216 Phương pháp PVD and CVD (cân khối lượng màng lắng đọng suy ra tốc độ lắng đọng); MVL217 Wafer silic; Luận văn PT1–PT2. |
+| **Ứng dụng cụ thể (giai đoạn)** | • *Thực hành cơ bản:* bài thực hành kỹ thuật cân phân tích/bán vi lượng, quy tắc chống tĩnh điện – chống rung khi cân mg.<br>• *Đồ án môn học:* pha chế dung dịch điện ly, sol-gel tiền chất theo khối lượng trong đồ án điện hóa/vật liệu năng lượng.<br>• *Khóa luận/Luận văn:* phương pháp khối lượng (gravimetric) xác định tốc độ lắng đọng/ăn mòn màng mỏng. |
+| **Mục đích / tác dụng kỹ thuật** | Độ đọc 0,01 mg (dải 82 g) cho phép cân tiền chất, hóa chất, màng mỏng với sai số ±0,0001 g – ngưỡng mà cân kỹ thuật 0,1 g của PTN không đạt; hiệu chuẩn nội AutoCal giảm phụ thuộc quả cân ngoài. |
+| **Trình bày lý do (điền bảng)** | Đáp ứng yêu cầu cân chính xác 0,01 mg khi pha chế hóa chất và xác định khối lượng màng trong các môn chế tạo, điện hóa, vật liệu năng lượng (ĐH) và PVD–CVD (CH); cân hiện có của PTN chỉ đạt 0,1 g. |
+
 
 ---
 
 ### Mục 10 – Lò nung ống chẻ hai vùng nhiệt 1200 °C kèm mặt bích chân không, mã OTF-1200X-S-II-50 (MTI, Mỹ, 2026) – 01 bộ
 
-- **Môn học tiếp nhận:**
-  - ĐH: SEM10003 Công nghệ chế tạo bán dẫn cơ bản (chính – oxy hóa nhiệt); SEM10130 Kỹ thuật chân không và màng mỏng (chính – CVD nhiệt, đề cương đang cập nhật); SEM10112 Mô phỏng các công nghệ chế tạo bán dẫn (hỗ trợ – đối chiếu mô phỏng gradient nhiệt); SEM10120 Vật liệu chuyển hóa năng lượng; SEM10124 Ứng dụng công nghệ bức xạ trong vật liệu bán dẫn (hỗ trợ – ủ phục hồi hư hỏng bức xạ).
-  - CH: MVL208 Kỹ thuật nhiệt trong CNBD – quá trình oxy hóa (chính); MVL219 Kỹ thuật pha tạp – nhiệt khuếch tán (chính); MVL216 Phương pháp PVD and CVD (chính); MVL218 Cấy ion (ủ phục hồi); MVL217 Wafer silic; Luận văn PT1–PT2.
-- **Ứng dụng cụ thể (giai đoạn):**
-  - *Thực hành cơ bản:* bài oxy hóa nhiệt khô/ướt mọc lớp SiO₂; bài khuếch tán tạp chất từ nguồn rắn/khí.
-  - *Đồ án môn học:* khảo sát gradient nhiệt 2 vùng (chênh 200 °C) trong đồ án MVL208/MVL219.
-  - *Khóa luận/Luận văn:* tăng trưởng vật liệu 1D (nanowire, graphene) bằng CVD nhiệt 2 vùng nguồn – phản ứng.
-- **Mục đích / tác dụng kỹ thuật:** hai vùng gia nhiệt độc lập tạo profile nhiệt phẳng (±1 °C trên 50 mm) hoặc gradient có kiểm soát – điều kiện chuẩn của khuếch tán nhiệt và CVD; mặt bích chân không + đường khí 1/4" cho phép chạy khí bảo vệ/khí phản ứng và hút chân không trước khi nung.
-- **Trình bày lý do (điền bảng):** Thiết bị công nghệ lõi cho nhóm môn chế tạo: oxy hóa nhiệt, khuếch tán tạp, CVD nhiệt (ĐH: SEM10003, SEM10130; CH: MVL208, MVL216, MVL219); cấu hình 2 vùng gradient phục vụ thí nghiệm tăng trưởng vật liệu nano trong luận văn.
+| Tiêu chí | Nội dung |
+|---|---|
+| **Môn học tiếp nhận** | ĐH: SEM10003 Công nghệ chế tạo bán dẫn cơ bản (chính – oxy hóa nhiệt); SEM10130 Kỹ thuật chân không và màng mỏng (chính – CVD nhiệt, đề cương đang cập nhật); SEM10112 Mô phỏng các công nghệ chế tạo bán dẫn (hỗ trợ – đối chiếu mô phỏng gradient nhiệt); SEM10120 Vật liệu chuyển hóa năng lượng; SEM10124 Ứng dụng công nghệ bức xạ trong vật liệu bán dẫn (hỗ trợ – ủ phục hồi hư hỏng bức xạ).<br>CH: MVL208 Kỹ thuật nhiệt trong CNBD – quá trình oxy hóa (chính); MVL219 Kỹ thuật pha tạp – nhiệt khuếch tán (chính); MVL216 Phương pháp PVD and CVD (chính); MVL218 Cấy ion (ủ phục hồi); MVL217 Wafer silic; Luận văn PT1–PT2. |
+| **Ứng dụng cụ thể (giai đoạn)** | • *Thực hành cơ bản:* bài oxy hóa nhiệt khô/ướt mọc lớp SiO₂; bài khuếch tán tạp chất từ nguồn rắn/khí.<br>• *Đồ án môn học:* khảo sát gradient nhiệt 2 vùng (chênh 200 °C) trong đồ án MVL208/MVL219.<br>• *Khóa luận/Luận văn:* tăng trưởng vật liệu 1D (nanowire, graphene) bằng CVD nhiệt 2 vùng nguồn – phản ứng. |
+| **Mục đích / tác dụng kỹ thuật** | Hai vùng gia nhiệt độc lập tạo profile nhiệt phẳng (±1 °C trên 50 mm) hoặc gradient có kiểm soát – điều kiện chuẩn của khuếch tán nhiệt và CVD; mặt bích chân không + đường khí 1/4" cho phép chạy khí bảo vệ/khí phản ứng và hút chân không trước khi nung. |
+| **Trình bày lý do (điền bảng)** | Thiết bị công nghệ lõi cho nhóm môn chế tạo: oxy hóa nhiệt, khuếch tán tạp, CVD nhiệt (ĐH: SEM10003, SEM10130; CH: MVL208, MVL216, MVL219); cấu hình 2 vùng gradient phục vụ thí nghiệm tăng trưởng vật liệu nano trong luận văn. |
+
 
 ---
 
 ### Mục 11 – Lò nung ống điện 1400 °C, OD 60 mm, mã PT D60/300/14 (Program Therm, Trung Quốc, 2026) – 02 bộ
 
-- **Môn học tiếp nhận:**
-  - ĐH: SEM10130 Kỹ thuật chân không và màng mỏng (chính); SEM10120 Vật liệu chuyển hóa năng lượng (chính – thiêu kết vật liệu nhiệt điện/pin); SEM10116 Vật liệu và linh kiện bộ nhớ bán dẫn (ủ kết tinh); SEM10124 Ứng dụng công nghệ bức xạ trong vật liệu bán dẫn (ủ phục hồi); SEM10003 (hỗ trợ); SEM10125 Pin nhiên liệu và công nghệ mới trong lưu trữ năng lượng (thiêu kết điện cực).
-  - CH: MVL208; MVL216; MVL217 Wafer silic; MVL219 (kích hoạt tạp nhiệt độ cao); Luận văn PT1–PT2.
-- **Ứng dụng cụ thể (giai đoạn):**
-  - *Thực hành cơ bản:* bài ủ (annealing) kết tinh/kích hoạt tạp sau lắng đọng; bài thiêu kết gốm/phốt pho.
-  - *Đồ án môn học:* khảo sát ảnh hưởng nhiệt độ ủ (đến 1400 °C) tới cấu trúc màng trong đồ án vật liệu.
-  - *Khóa luận/Luận văn:* quy trình ủ nhanh/chậm có kiểm soát khí cho đề tài màng chức năng, vật liệu năng lượng.
-- **Mục đích / tác dụng kỹ thuật:** đạt 1400 °C – ngưỡng cần cho kích hoạt tạp, kết tinh màng oxide, thiêu kết mà lò 1200 °C (Mục 10) không phủ hết; chân không 10⁻⁵ Torr và nhiều cổng khí cho phép ủ trong môi trường kiểm soát; gia nhiệt/làm nguội nhanh nhờ thanh SiC.
-- **Trình bày lý do (điền bảng):** Bổ sung năng lực xử lý nhiệt ≥1400 °C (ủ kích hoạt tạp, kết tinh, thiêu kết) cho các môn vật liệu – chế tạo (ĐH: SEM10120, SEM10130, SEM10116; CH: MVL208, MVL216, MVL217); số lượng 02 bộ đáp ứng hai lớp thực hành/đề tài chạy song song.
+| Tiêu chí | Nội dung |
+|---|---|
+| **Môn học tiếp nhận** | ĐH: SEM10130 Kỹ thuật chân không và màng mỏng (chính); SEM10120 Vật liệu chuyển hóa năng lượng (chính – thiêu kết vật liệu nhiệt điện/pin); SEM10116 Vật liệu và linh kiện bộ nhớ bán dẫn (ủ kết tinh); SEM10124 Ứng dụng công nghệ bức xạ trong vật liệu bán dẫn (ủ phục hồi); SEM10003 (hỗ trợ); SEM10125 Pin nhiên liệu và công nghệ mới trong lưu trữ năng lượng (thiêu kết điện cực).<br>CH: MVL208; MVL216; MVL217 Wafer silic; MVL219 (kích hoạt tạp nhiệt độ cao); Luận văn PT1–PT2. |
+| **Ứng dụng cụ thể (giai đoạn)** | • *Thực hành cơ bản:* bài ủ (annealing) kết tinh/kích hoạt tạp sau lắng đọng; bài thiêu kết gốm/phốt pho.<br>• *Đồ án môn học:* khảo sát ảnh hưởng nhiệt độ ủ (đến 1400 °C) tới cấu trúc màng trong đồ án vật liệu.<br>• *Khóa luận/Luận văn:* quy trình ủ nhanh/chậm có kiểm soát khí cho đề tài màng chức năng, vật liệu năng lượng. |
+| **Mục đích / tác dụng kỹ thuật** | Đạt 1400 °C – ngưỡng cần cho kích hoạt tạp, kết tinh màng oxide, thiêu kết mà lò 1200 °C (Mục 10) không phủ hết; chân không 10⁻⁵ Torr và nhiều cổng khí cho phép ủ trong môi trường kiểm soát; gia nhiệt/làm nguội nhanh nhờ thanh SiC. |
+| **Trình bày lý do (điền bảng)** | Bổ sung năng lực xử lý nhiệt ≥1400 °C (ủ kích hoạt tạp, kết tinh, thiêu kết) cho các môn vật liệu – chế tạo (ĐH: SEM10120, SEM10130, SEM10116; CH: MVL208, MVL216, MVL217); số lượng 02 bộ đáp ứng hai lớp thực hành/đề tài chạy song song. |
+
 
 ---
 
 ### Mục 12 – Nguồn đèn UV, mã UV-X12-100-365CX (Chingtek Electronics, Đài Loan, 2026) – 01 cái
 
-- **Môn học tiếp nhận:**
-  - ĐH: SEM10004 Kỹ thuật vi chế tạo (chính – phơi sáng resist i-line); SEM10136 Kỹ thuật thiết kế mạch in PCB (chính – phơi màng dry-film, đề cương đang cập nhật); SEM10103 Công nghệ đóng gói nâng cao (đóng rắn keo UV/LOCA); SEM10137 Công nghệ mạch in trong đóng gói; SEM10119 Chiếu sáng thông minh, laser và quang tử học (hỗ trợ – khảo sát nguồn UV).
-  - CH: MVL209 Kỹ thuật khắc (Lithography) (chính); MVL226 Quy trình đóng gói; MVL210 Công nghệ phụ trợ; Luận văn/đồ án PT1–PT3.
-- **Ứng dụng cụ thể (giai đoạn):**
-  - *Thực hành cơ bản:* bài quang khắc tiếp xúc: phơi sáng resist 365 nm với liều điều khiển bằng hẹn giờ + chỉnh công suất 10–100 %.
-  - *Đồ án môn học:* chế tạo mạch in/điện cực bằng phơi sáng dry-film; đóng rắn keo UV gắn chip trong đồ án đóng gói.
-  - *Khóa luận/Luận văn:* tối ưu liều phơi cho resist dày/màng SU-8, kiểm tra huỳnh quang mẫu.
-- **Mục đích / tác dụng kỹ thuật:** nguồn LED COB 365 nm công suất 100 W, cường độ 9,7 W/cm² điều chỉnh được – đúng bước sóng i-line của đa số resist quang khắc giáo trình; kính thạch anh hội tụ 60° cho phơi sáng sâu; hẹn giờ 1 s–999 phút bảo đảm lặp lại liều chiếu.
-- **Trình bày lý do (điền bảng):** Nguồn phơi sáng i-line 365 nm cho bài thực hành quang khắc của môn Kỹ thuật vi chế tạo (ĐH) và MVL209 (CH), đồng thời đóng rắn keo UV/LOCA trong các môn công nghệ đóng gói; thay thế việc gửi mẫu gia công ngoài.
+| Tiêu chí | Nội dung |
+|---|---|
+| **Môn học tiếp nhận** | ĐH: SEM10004 Kỹ thuật vi chế tạo (chính – phơi sáng resist i-line); SEM10136 Kỹ thuật thiết kế mạch in PCB (chính – phơi màng dry-film, đề cương đang cập nhật); SEM10103 Công nghệ đóng gói nâng cao (đóng rắn keo UV/LOCA); SEM10137 Công nghệ mạch in trong đóng gói; SEM10119 Chiếu sáng thông minh, laser và quang tử học (hỗ trợ – khảo sát nguồn UV).<br>CH: MVL209 Kỹ thuật khắc (Lithography) (chính); MVL226 Quy trình đóng gói; MVL210 Công nghệ phụ trợ; Luận văn/đồ án PT1–PT3. |
+| **Ứng dụng cụ thể (giai đoạn)** | • *Thực hành cơ bản:* bài quang khắc tiếp xúc: phơi sáng resist 365 nm với liều điều khiển bằng hẹn giờ + chỉnh công suất 10–100 %.<br>• *Đồ án môn học:* chế tạo mạch in/điện cực bằng phơi sáng dry-film; đóng rắn keo UV gắn chip trong đồ án đóng gói.<br>• *Khóa luận/Luận văn:* tối ưu liều phơi cho resist dày/màng SU-8, kiểm tra huỳnh quang mẫu. |
+| **Mục đích / tác dụng kỹ thuật** | Nguồn LED COB 365 nm công suất 100 W, cường độ 9,7 W/cm² điều chỉnh được – đúng bước sóng i-line của đa số resist quang khắc giáo trình; kính thạch anh hội tụ 60° cho phơi sáng sâu; hẹn giờ 1 s–999 phút bảo đảm lặp lại liều chiếu. |
+| **Trình bày lý do (điền bảng)** | Nguồn phơi sáng i-line 365 nm cho bài thực hành quang khắc của môn Kỹ thuật vi chế tạo (ĐH) và MVL209 (CH), đồng thời đóng rắn keo UV/LOCA trong các môn công nghệ đóng gói; thay thế việc gửi mẫu gia công ngoài. |
+
 
 ---
 
 ### Mục 13 – Lưu lượng kế khí 0–100 sccm, mã PFLOW2001-100-U-VI2CA (Angst+Pfister, Trung Quốc, 2026) – 05 cái
 
-- **Môn học tiếp nhận:**
-  - ĐH: SEM10130 Kỹ thuật chân không và màng mỏng (chính); SEM10003 Công nghệ chế tạo bán dẫn cơ bản (chính – kiểm soát khí công đoạn oxy hóa/khuếch tán); SEM10105 Sản xuất linh kiện bán dẫn và kiểm soát quy trình (hỗ trợ – vòng điều khiển lưu lượng); SEM10118 Công nghệ chế tạo cảm biến (hỗ trợ – nguyên lý cảm biến lưu lượng nhiệt).
-  - CH: MVL208; MVL216; Luận văn PT1–PT2 (kiểm soát khí phản ứng CVD).
-- **Ứng dụng cụ thể (giai đoạn):**
-  - *Thực hành cơ bản:* bài đo và hiệu chuẩn lưu lượng khí N₂/O₂/Ar cấp vào lò ống (Mục 10, 11).
-  - *Đồ án môn học / Khóa luận–Luận văn:* ghép tín hiệu I2C/analog 1–5 V vào hệ điều khiển để ổn định lưu lượng khí phản ứng trong quy trình CVD/oxy hóa.
-- **Mục đích / tác dụng kỹ thuật:** đo lưu lượng 0–100 sccm với sai số ±(1,5 % RD + 0,15 % FS), đáp ứng 2 ms, xuất tín hiệu số I2C và analog – đủ để vừa làm thiết bị đo dạy học vừa làm cảm biến phản hồi trong mạch điều khiển khí công nghệ; dải 100 sccm khớp lưu lượng khí điển hình của lò ống phòng lab (Mục 10, 11).
-- **Trình bày lý do (điền bảng):** Đo và kiểm soát lưu lượng khí công nghệ cấp cho lò ống Mục 10–11 trong các môn PVD–CVD, oxy hóa, chân không – màng mỏng (ĐH & CH); số lượng 05 cái tương ứng số tuyến khí (N₂, O₂, Ar, khí phản ứng, dự phòng).
+| Tiêu chí | Nội dung |
+|---|---|
+| **Môn học tiếp nhận** | ĐH: SEM10130 Kỹ thuật chân không và màng mỏng (chính); SEM10003 Công nghệ chế tạo bán dẫn cơ bản (chính – kiểm soát khí công đoạn oxy hóa/khuếch tán); SEM10105 Sản xuất linh kiện bán dẫn và kiểm soát quy trình (hỗ trợ – vòng điều khiển lưu lượng); SEM10118 Công nghệ chế tạo cảm biến (hỗ trợ – nguyên lý cảm biến lưu lượng nhiệt).<br>CH: MVL208; MVL216; Luận văn PT1–PT2 (kiểm soát khí phản ứng CVD). |
+| **Ứng dụng cụ thể (giai đoạn)** | • *Thực hành cơ bản:* bài đo và hiệu chuẩn lưu lượng khí N₂/O₂/Ar cấp vào lò ống (Mục 10, 11).<br>• *Đồ án môn học / Khóa luận–Luận văn:* ghép tín hiệu I2C/analog 1–5 V vào hệ điều khiển để ổn định lưu lượng khí phản ứng trong quy trình CVD/oxy hóa. |
+| **Mục đích / tác dụng kỹ thuật** | Đo lưu lượng 0–100 sccm với sai số ±(1,5 % RD + 0,15 % FS), đáp ứng 2 ms, xuất tín hiệu số I2C và analog – đủ để vừa làm thiết bị đo dạy học vừa làm cảm biến phản hồi trong mạch điều khiển khí công nghệ; dải 100 sccm khớp lưu lượng khí điển hình của lò ống phòng lab (Mục 10, 11). |
+| **Trình bày lý do (điền bảng)** | Đo và kiểm soát lưu lượng khí công nghệ cấp cho lò ống Mục 10–11 trong các môn PVD–CVD, oxy hóa, chân không – màng mỏng (ĐH & CH); số lượng 05 cái tương ứng số tuyến khí (N₂, O₂, Ar, khí phản ứng, dự phòng). |
+
 
 ---
 
@@ -325,4 +309,4 @@
 
 ---
 
-*Hết báo cáo – Bản v1.1. Bản Word (.docx) kèm theo được tạo tự động từ tài liệu này (script `tools/md2docx.py`); bảng tổng hợp 11 cột tự động đặt trên trang khổ ngang, các phần còn lại khổ A4 dọc, font Times New Roman 13 pt.*
+*Hết báo cáo – Bản v1.3. Bản Word (.docx) kèm theo được tạo tự động từ tài liệu này (script `tools/md2docx.py`), trình bày theo mẫu báo cáo chuyên nghiệp: khối thông tin đầu báo cáo, bảng tiêu chí cho từng thiết bị, bảng biểu đổ màu hàng tiêu đề và zebra, bảng 11 cột trên trang khổ ngang, tiêu đề trang và số trang tự động.*
